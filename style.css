@@ -1,0 +1,315 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: #000;
+}
+
+.cover_pic img{
+    height:100vh;
+    width:100%;
+    opacity: 0.3;
+}
+
+.header{
+    /* background-color: yellow; */
+    position: absolute;
+    top:0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:88px;
+    width:1250px;
+    margin: 0 8rem 0 8rem;
+    /* background-color: yellow; */
+}
+
+.header_left img{
+    height:3rem;
+    width:148px;
+}
+
+.header_right input{
+    height:2rem;
+    width:77px;
+    background-color: red;
+    color:white;
+    border-radius: 5px;
+    border:none;
+    font-size:1rem;
+    font-weight:500;
+}
+
+.header_right select{
+    height:2rem;
+    width:125px;
+    font-size:1rem;
+    background-color: rgba(128, 128, 128, 0.438);
+    color:white;
+    border:none;
+    border-radius:5px;
+}
+
+.header_right .lang{
+    color:white;
+    font-size:1rem;
+    position:absolute;
+    right:11.8rem;
+    top:2.2rem;
+}
+
+.header_right .dropdown{
+    padding-left:2.5rem;
+    margin-right:0.5rem;
+}
+
+.middle_content{
+    position: absolute;
+    top:280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: yellow; */
+    width:100%;
+    text-align: center;
+}
+
+.middle_content .layer1{
+    width:588px;
+    height:140px;
+    /* background-color: red; */
+    color:white;
+    font-size:3.5rem;
+    font-weight: 700;
+    padding-bottom: 0.5rem;
+}
+
+.middle_content .layer2{
+    width:588px;
+    height:25px;
+    /* background-color: green; */
+    color:white;
+    font-weight: 500;
+    padding-bottom: 1rem;
+}
+
+.middle_content .layer3{
+    width:700px;
+    height:25px;
+    /* background-color: grey; */
+    color:white;
+    font-weight: 300;
+    font-size:1rem;
+}
+
+.middle_content .layer4{
+    padding-top:1rem;
+    width:588px;
+    /* background-color: pink; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.middle_content .layer4 .email{
+    width:350px;
+    height:56px;
+    font-size:1rem;
+    border:0.5px solid white;
+    background-color: rgba(0,0,0,0.7);
+    border-radius: 5px;
+    padding-left:1rem;
+    color:white;
+}
+
+.middle_content .layer4 .get_started{
+    width:213px;
+    height:56px;
+    background-color: red;
+    border:none;
+    color:white;
+    font-size:1.5rem;
+    font-weight:700;
+    border-radius:5px;
+}
+
+.trending_now{
+    padding:1rem 0 1rem 8rem;
+}
+
+.bottom_content{
+    height:100%;
+    margin:0 8rem 0 8rem;
+    /* background-color: green; */
+}
+
+.bottom_content .top_movies{
+    height:100%;
+    width:100%;
+    /* background-color: yellow; */
+    display:flex;
+    /* justify-content: center; */
+    align-items: center;
+    /* justify-content: ; */
+
+}
+
+.bottom_content .films{
+    height:268px;
+    width:224px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.bottom_content .films img{
+    height:252px;
+    width:180px;
+    border-radius:0.5rem;
+}
+
+.bottom_content .to_join{
+    margin:5rem 0;
+}
+
+.cards{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.cards .card{
+    margin-top:1rem;
+    margin-bottom:0;
+    height:275px;
+    width:295px;
+    /* background-color: green; */
+    background: linear-gradient(#192144, #210f19);
+    border-radius:10px;
+}
+
+
+
+.card .top{
+    padding:2rem 0 0 1rem;
+    font-size:1.5rem;
+    color:white;
+    font-weight: 700;
+}
+
+.card .middle{
+    padding: 1rem 1rem 0 1rem;
+    color:rgba(255,255,255,0.7);
+    font-size:1rem;
+    font-weight:400;
+}
+
+.card img{
+    height:72px;
+    width:72px;
+    position: relative;
+    left:13rem;
+    top:3.5rem;
+}
+
+.questions .q1{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:1.5rem;
+    color:white;
+    background-color:#414141;
+    font-size:1.17rem;
+    margin:1rem 0 0.5rem 0;
+}
+
+.questions i{
+    font-size:30px;
+    color:white;
+}
+
+/* .questions .answers{
+    position: relative;
+    left:-10000px;
+    background-color: #414141;
+    padding:1.5rem;
+    font-size:1.5rem;
+    color:white;
+} */
+
+/* .checkbox{
+    display: none;
+} */
+
+.questions .q2{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:1.5rem;
+    color:white;
+    font-weight:500;
+    background-color:#414141;
+    font-size:1.17rem;
+    margin:0 0 0.5rem 0;
+}
+
+.questions .q3{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:1.5rem;
+    color:white;
+    background-color:#414141;
+    font-size:1.17rem;
+    margin:0 0 0.5rem 0;
+}
+
+
+.questions .q4{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:1.5rem;
+    color:white;
+    background-color:#414141;
+    font-size:1.17rem;
+    margin:0 0 0.5rem 0;
+}
+
+.membership .content{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:5rem;
+}
+
+.membership .content .line2{
+    margin-top:1rem;
+    margin-bottom:1rem;
+}
+
+
+.membership .content .line2 .email{
+    width:560px;
+    height:56px;
+    font-size:1rem;
+    border:0.5px solid white;
+    background-color: rgba(0,0,0,0.7);
+    border-radius: 5px;
+    padding-left:1rem;
+    color:white;
+}
+
+.membership .content .line2 .get_started{
+    width:213px;
+    height:56px;
+    background-color: red;
+    border:none;
+    color:white;
+    font-size:1.5rem;
+    font-weight:700;
+    border-radius:5px;
+}
